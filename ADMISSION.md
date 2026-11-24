@@ -1,10 +1,10 @@
 # Admission record
 
-**Current state:** DRAFT
+**Current state:** CANDIDATE
 
 **Verdict:** NOT YET ADMITTED
 
-**Version:** 0.1.0 (in preparation)
+**Version:** 0.1.0 (release candidate)
 
 **Standard:** [A Public Standard for This Work](https://jeff-kline.github.io/posts/research-program/index.html)
 
@@ -35,5 +35,5 @@ Supporting results: Lemma 3.1 (exact gauge) and Corollary 6.1 (rigid designs).
 | Gate | Status |
 |---|---|
 | P1 prior work and credit | Bounded search of 23–24 November 2026: [audit/PRIOR-ART.md](audit/PRIOR-ART.md). Norman 1973 not openly accessible, accepted by the author on 2026-11-23. Not searched: Google Scholar, MathSciNet, zbMATH, the *Handbook of Combinatorial Designs*. GitHub and arXiv rescan done 2026-11-24 ([audit/search-log-github-2026-11-24.txt](audit/search-log-github-2026-11-24.txt)): no overlap found. aiXiv rescan done the same day (page 1 of six queries): no overlap. To repeat within 7 days before tagging. |
-| A1 claim consistency | Proof audit of Corollary 8.4 and of the sharp Theorem 8.1: VERIFIED ([audit/reviews/rank-one-blocks/twist-stage2.md](audit/reviews/rank-one-blocks/twist-stage2.md)). Claims-consistency audit: PASS-WITH-FIXES ([audit/reviews/RELEASE-AUDIT-CLAIMS-2026-11-24.md](audit/reviews/RELEASE-AUDIT-CLAIMS-2026-11-24.md)), fixes applied 2026-11-24. End-to-end read of the final manuscript: READY-WITH-FIXES ([audit/reviews/assembled-paper/FINAL-READ-2026-11-24.md](audit/reviews/assembled-paper/FINAL-READ-2026-11-24.md)), one statement error (Theorem 1.1, small orders) and wording fixes, all applied 2026-11-24. |
-| R1 release and stewardship | **Pending:** clean-package check, freeze, tag, archive and DOI. |
+| A1 claim consistency | Proof audit of Corollary 8.4 and of the sharp Theorem 8.1: VERIFIED ([audit/reviews/rank-one-blocks/twist-stage2.md](audit/reviews/rank-one-blocks/twist-stage2.md)). Claims-consistency audit: PASS-WITH-FIXES ([audit/reviews/RELEASE-AUDIT-CLAIMS-2026-11-24.md](audit/reviews/RELEASE-AUDIT-CLAIMS-2026-11-24.md)), fixes applied 2026-11-24. End-to-end read of the final manuscript: READY-WITH-FIXES ([audit/reviews/assembled-paper/FINAL-READ-2026-11-24.md](audit/reviews/assembled-paper/FINAL-READ-2026-11-24.md)), one statement error (Theorem 1.1, small orders) and wording fixes, all applied 2026-11-24. Figure 1 was added after that read, at the author's request; every claim in its caption is checked by [code/figure_recovery.py](code/figure_recovery.py), which `make verify` runs. |
+| R1 release and stewardship | Candidate frozen 2026-11-24: correction policy ([CORRECTIONS.md](CORRECTIONS.md)), citation metadata without a release date, verification commands with pinned outputs (`make verify`, ten checks), manifest, clean-copy build and verification. Zenodo GitHub integration enabled by the author. **Pending:** tag `v0.1.0`, GitHub Release, Zenodo archive and DOI, byte-identity check. |

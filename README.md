@@ -2,11 +2,12 @@
 
 Jeffery Kline
 
-**Status: draft for version 0.1.0.** The claims are not yet frozen, and the
-release audit is not complete. There is no tag, archive or DOI yet, so there is no stable
-citation. Admission under the project's
+**Status: release candidate for version 0.1.0.** The claims are frozen and
+audited (see [ADMISSION.md](ADMISSION.md)). There is no tag, archive or DOI
+yet, so there is no stable citation. Admission under the project's
 [public research standard](https://jeff-kline.github.io/posts/research-program/index.html)
-is a release decision, not peer review or a correctness certificate.
+is a release decision, not peer review or a correctness certificate; see
+[ADMISSION.md](ADMISSION.md).
 
 The paper is [paper/main.pdf](paper/main.pdf); its source is
 [paper/main.tex](paper/main.tex).
@@ -49,26 +50,32 @@ orders.
 white $+1$. (a) A Bush-type square of order $N=144$ ($m=12$), built from the
 Paley-type Hadamard matrix of order 12, with its $12\times12$ grid of rank-one
 blocks. (b) The same matrix after a random signed permutation of its rows and
-columns. (c) Matrix (b) re-sorted by the divisibility test in the proof of
-Proposition 4.1, which reads only the entries of (b). All 12 row fibres and 12
-column fibres are recovered, and every block is again of rank one.
+columns. (c) Matrix (b) with its rows and columns re-sorted into the groups
+(fibres) found by the divisibility test in the proof of Proposition 4.1, which
+reads only the entries of (b). The test finds all 12 row groups and all 12
+column groups, so every block is again of rank one. It does not recover the
+order of the groups, the order within a group, or the signs. These are exactly
+what the disguise changed, and (b) alone cannot reveal them; so (c) is
+equivalent to (a) but not equal to it.
 
-Tripwires in using this rule:
+Cautions:
 
-- The theorems are asymptotic, and this matrix is not claimed to be rigid.
-- At this order some mixed quartets reach $N/2$. The branch selection of
-  Proposition 4.1 would then take the large-quartet branch, which fails here,
-  finding 144 column groups instead of 12. The figure applies the
-  divisibility branch directly.
-- At order 64, where the only input is Sylvester's, the divisibility test
-  relates every pair of rows.
-- Recovery returns the fibres only up to order and sign, so (c) is equivalent
-  to (a), not equal to it.
-- The test computes about $N^4/4$ fourth sums. Its success was checked against
-  the hidden partition for one seed only.
+- **Asymptotic theorems.** The figure illustrates recovery. It makes no
+  rigidity claim for this particular matrix.
+- **The paper's test selection goes wrong at this order.** Proposition 4.1
+  chooses between two tests. Here some quartets that mix two groups reach
+  $N/2$, which selects the large-quartet test, and that test finds 144 column
+  groups instead of 12. The figure therefore applies the divisibility test
+  directly.
+- **Sylvester inputs defeat the divisibility test.** At order 64, where
+  Sylvester's matrix is the only possible input, the test relates all 2016
+  pairs of rows instead of the 224 true pairs.
+- **Cost and evidence.** The test evaluates about $N^4/4$ sums of fourfold
+  products, and its success here was checked against the hidden groups for one
+  random seed only.
 
-[code/figure_recovery.py](code/figure_recovery.py) draws the figure and runs
-each of these checks.
+[code/figure_recovery.py](code/figure_recovery.py) draws the figure and checks
+each statement above.
 
 ## What is new
 
