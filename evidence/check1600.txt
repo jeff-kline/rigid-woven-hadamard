@@ -1,0 +1,1 @@
+Regular order 1600: all 2560000 sign entries checked; all row and column sums 40; all 1279200 row-pair distances 800.

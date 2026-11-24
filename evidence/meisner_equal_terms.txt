@@ -1,0 +1,3 @@
+Meisner unsigned lower bound digits: 952
+Meisner signed lower bound digits:   1281
+distinct outputs: Meisner 10^4186, four-group 10^3841

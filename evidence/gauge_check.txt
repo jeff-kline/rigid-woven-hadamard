@@ -1,0 +1,5 @@
+1 Hadamard order 64: True
+2 flag components = 10 (expect 10): True
+3 gauge leaves H identical: True
+4 single non-gauge port flip changes H: True
+5 port permutations recovered from H alone: True

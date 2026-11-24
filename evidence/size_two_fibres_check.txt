@@ -1,0 +1,10 @@
+ q     N   rk2(beta)  |X|+|Y|  twisted  N mod 16
+ 5    12        12       12  True       12
+13    28        28       28  True       12
+17    36        36       36  True        4
+29    60        60       60  True       12
+37    76        76       76  True       12
+41    84        84       84  True        4
+53   108       108      108  True       12
+control: Sylvester 32, pairs {i, i^3}: all blocks rank one, untwisted; pairs {2i,2i+1}: rejected
+all checks passed

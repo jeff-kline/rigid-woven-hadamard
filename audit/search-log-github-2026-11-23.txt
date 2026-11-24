@@ -1,0 +1,93 @@
+== gh search code rigid hadamard automorphism
+hacktoolspack/hack-tools  nts/scanarator/words.txt
+hakank/hakank  picat/unixdict.txt
+google-deepmind/superhuman  aletheia/FirstProof/FP7_A.tex
+RetroBSD/retrobsd  share/dict/words
+sergev/LiteBSD  share/dict/words
+envato/zxcvbn-ruby  data/frequency_lists/english_wikipedia.txt
+rust-rosetta/rust-rosetta  tasks/anagrams/resources/unixdict.txt
+rust-rosetta/rust-rosetta  tasks/ordered-words/resources/unixdict.txt
+rust-rosetta/rust-rosetta  tasks/letter-frequency/resources/unixdict.txt
+tavisrudd/othello  notes/2026-08-29-c999-hadamard-668-report.md
+nitlang/nit  examples/rosettacode/unixdict.txt
+zzllrr/mather  js/htm/wiki/dictionary/glossary.js
+conwnet/wpa-dictionary  other-2.txt
+aaronbloomfield/pdr  labs/lab06/data/words.txt
+Raku/mu  examples/qotw/009r/words.spel
+== gh search code hadamard trivial automorphism group
+TauCetiProject/TauCetiRoadmap  TauCetiRoadmap/EffectiveBoundsPartII/README.md
+qLDPCOrg/qLDPC  src/qldpc/circuits/transversal.py
+Brahmastra-Labs/logicaffeine  crates/logicaffeine_proof/src/hypercube.rs
+farev/Matematica  log/2026-09-01-projective-chromatic.md
+ixaxaar/spacetime  research/phase4/_synthesis/category_algebraic.md
+CIRISAI/CIRISOntology  scratchpad/RENT_SCALING_RESULTS.md
+tamnd/wikipedia-math  content/markdown/0425/4255174.md
+dylan-plummer/srg442  paper/srg442.tex
+apenzk/hamiltons-cubic-research  scripts/INDEX-reviewers.md
+tamnd/wikipedia-math  content/wikitext/0425/4255174.wiki
+TauCetiProject/TauCetiRoadmapJobs  packages/EffectiveBoundsPartII/README.md
+CIRISAI/CIRISOntology  scratchpad/RENT_SCALING_PREREG.md
+CIRISAI/CIRISOntology  scratchpad/rent_scaling_analyze.py
+valentinhofmann/flota  data/arxiv_maths_1e+03_dev.csv
+ybken/arxiv_fetcher  reports/quant-ph_2026-04-22.md
+== gh search code Meisner hadamard
+tennc/fuzzdb  dict/big-dict_457M/弱口令/美国人字典/internet_hosts.txt
+clem9669/wordlists  machine_names
+yyyanbj/arxiv-daily  database/storage/storage_2022-08-01.md
+xinali/wooyun  FuzzDB/dict/big-dict_457M/弱口令/美国人字典/internet_hosts.txt
+quantum-many-body-leaderboard/quantum-many-body-leaderboard  sources/2501.09702.txt
+cxy0714/research-news  docs/daily/2026-11-20.md
+jpbruneton/open_quantum_problems  manual_todo.md
+Alice-Shimada/daily-arXiv-ai-enhanced  data/2026-04-24.md
+ssl/SecCollection  Wordlists/English/internet_hosts.txt
+Alice-Shimada/daily-arXiv-ai-enhanced  data/2026-11-02.md
+dabi-team/someData  data/deeplearning/1404.7828.txt
+Alice-Shimada/daily-arXiv-ai-enhanced  data/2025-11-20.md
+Alice-Shimada/daily-arXiv-ai-enhanced  data/2025-09-29.md
+Alice-Shimada/daily-arXiv-ai-enhanced  data/2025-12-22.md
+Alice-Shimada/daily-arXiv-ai-enhanced  data/2025-12-05.md
+== gh search code bush-type hadamard inequivalent
+matrix-toolbox/chm  literature.js
+tmylla/CCF-Rec-Paper-DB  paper_db/3/Designs, Codes and Cryptography.json
+AlexenderSokolov/cross-theory-formal-database  editable-corpus/sources/172182/source0.tex
+Leonis-Q-F/CCF-VIS  src/backend/paper_db/3/Designs, Codes and Cryptography.json
+== gh search code hadamard inequivalent number lower bound
+0thernes/unsolved-mathematics  meta-analyses/hadamard-matrix-conjecture.md
+conwnet/wpa-dictionary  other-2.txt
+hacktoolspack/hack-tools  nts/scanarator/words.txt
+hakank/hakank  picat/unixdict.txt
+0thernes/unsolved-mathematics  problems/hadamard-matrix-conjecture/approaches.md
+tennc/fuzzdb  dict/big-dict_457M/弱口令/美国人字典/english_common.txt
+rust-rosetta/rust-rosetta  tasks/anagrams/resources/unixdict.txt
+0thernes/unsolved-mathematics  problems/hadamard-matrix-conjecture/status.md
+rust-rosetta/rust-rosetta  tasks/ordered-words/resources/unixdict.txt
+RetroBSD/retrobsd  share/dict/words
+rust-rosetta/rust-rosetta  tasks/letter-frequency/resources/unixdict.txt
+sergev/LiteBSD  share/dict/words
+Math-for-AI-Safety/MAIS  agendas/audit/2026-07/sol/MAIS-A4.md
+nitlang/nit  examples/rosettacode/unixdict.txt
+seed-labs/seed-labs  category-crypto/Crypto_Encryption/Labsetup/Files/words.txt
+== gh search code Merchant hadamard designs automorphism
+envato/zxcvbn-ruby  data/frequency_lists/english_wikipedia.txt
+ericproffitt/TopicModelsVB.jl  datasets/nsf/nsfvocab.txt
+ericproffitt/TopicModelsVB.jl  v0.6/datasets/nsf/nsflex.txt
+sunyilgdx/SIFRank  auxiliary_data/inspec_vocab.txt
+nulab/zxcvbn4j  src/main/resources/com/nulabinc/zxcvbn/matchers/dictionaries/english_wikipedia.txt
+XYZliang/HUAWEI-STORE-GO  DEV/Default/ZxcvbnData/1/english_wikipedia.txt
+techgaun/zxcvbn-elixir  priv/frequency_lists/english_wikipedia.txt
+dongwookim-ml/python-topic-model  data/cora/voca.pkl
+AnzorGozalishvili/sifrank_serving  data/inspec_vocab.txt
+dongwookim-ml/python-topic-model  data/citeseer/voca.pkl
+raandree/ManagedPasswordFilter  zxcvbn-core/Dictionaries/english.lst
+GSETBrainControl2013/BrainControl  dictest.txt
+NC0DER/KeyphraseExtraction  KeyExt/SIFRank/auxiliary_data/inspec_vocab.txt
+formigarafa/zxcvbn-rb  lib/zxcvbn/frequency_lists/english_wikipedia.txt
+brave/pagegraph-crawl  resources/shields-up-profile/ZxcvbnData/3/english_wikipedia.txt
+== gh search code woven hadamard Craigen
+== gh search repos
+-- rigid hadamard
+-- hadamard automorphism
+-- bush-type hadamard
+-- inequivalent hadamard
+== OpenProblemsInNLA: entries mentioning Hadamard
+     139

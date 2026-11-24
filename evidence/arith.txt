@@ -1,0 +1,20 @@
+a20 = 5673369600000 True
+claim6 floor digits: 1515 leading: 587135898904  >10^1514: True
+old FINITE-1600 floor digits: 663
+Meisner distinct matrices log10: 4186.41
+  Meisner classes >= floor with 2m*a40 (kernel<=2m words, finite a), N^m: digits 1281, >10^1280: True
+  Meisner classes >= floor with 2m*a40 (kernel<=2m words, finite a), C(N,m): digits 1329, >10^1280: True
+  Meisner classes >= floor with (2m)^r (full Stab via distinguishing rows), N^m: digits 1983, >10^1280: True
+  Meisner classes >= floor with (2m)^r (full Stab via distinguishing rows), C(N,m): digits 2032, >10^1280: True
+  Meisner classes >= floor with 2*a40 (kernel {+-I}; not justified at m=0 mod 8), N^m: digits 1409, >10^1280: True
+  Meisner classes >= floor with 2*a40 (kernel {+-I}; not justified at m=0 mod 8), C(N,m): digits 1458, >10^1280: True
+four-group h=1000: (logD - NlogN)/N = -2.077984  target -2.086643
+four-group h=10000: (logD - NlogN)/N = -2.085547  target -2.086643
+four-group h=100000: (logD - NlogN)/N = -2.086511  target -2.086643
+four-group h=1000000: (logD - NlogN)/N = -2.086628  target -2.086643
+Meisner m=1000: (log#-NlogN)/N = -1.311923  target -1.306853
+Meisner m=10000: (log#-NlogN)/N = -1.307590  target -1.306853
+Meisner m=100000: (log#-NlogN)/N = -1.306950  target -1.306853
+Meisner m=1000000: (log#-NlogN)/N = -1.306865  target -1.306853
+Merchant Thm 5.2 at n=50: floor((16n-2)!/(2^10 n^3)) has 1963 digits (> 10^1962)
+Bush pinned-diagonal floor at m=40 has 1269 digits (> 10^1268)

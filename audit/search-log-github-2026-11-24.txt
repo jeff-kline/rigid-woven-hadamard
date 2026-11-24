@@ -1,0 +1,185 @@
+-- positive control
+== gh search code Stepaniants hadamard
+ajt60gaibb/OpenProblemsInNLA  references/stepaniants-fr12-2026-09-12/README.md
+ajt60gaibb/OpenProblemsInNLA  references/stepaniants-fr12-2026-09-12/reviewed-proof.tex
+ajt60gaibb/OpenProblemsInNLA  references/stepaniants-fr12-2026-09-12/original-user-source.tex
+ajt60gaibb/OpenProblemsInNLA  references/stepaniants-fr12-2026-09-12/source-preservation.json
+ajt60gaibb/OpenProblemsInNLA  frames-and-matrix-designs/FR-12/README.md
+ajt60gaibb/OpenProblemsInNLA  references/stepaniants-mf06-2026-09-12/public-audit/head-refresh.json
+ajt60gaibb/OpenProblemsInNLA  references/stepaniants-fr12-2026-09-12/packaging-review/REVIEW.md
+ajt60gaibb/OpenProblemsInNLA  RESOLVED.md
+ajt60gaibb/OpenProblemsInNLA  frames-and-matrix-designs/FR-12/solution.md
+ajt60gaibb/OpenProblemsInNLA  frames-and-matrix-designs/FR-12/lean/README.md
+ajt60gaibb/OpenProblemsInNLA  frames-and-matrix-designs/FR-12/problem.tex
+ajt60gaibb/OpenProblemsInNLA  frames-and-matrix-designs/FR-12/lean/NLA/FR12/Growth.lean
+== gh search code Meisner hadamard
+tennc/fuzzdb  dict/big-dict_457M/弱口令/美国人字典/internet_hosts.txt
+clem9669/wordlists  machine_names
+yyyanbj/arxiv-daily  database/storage/storage_2022-08-01.md
+xinali/wooyun  FuzzDB/dict/big-dict_457M/弱口令/美国人字典/internet_hosts.txt
+quantum-many-body-leaderboard/quantum-many-body-leaderboard  sources/2501.09702.txt
+cxy0714/research-news  docs/daily/2026-11-20.md
+jpbruneton/open_quantum_problems  manual_todo.md
+Alice-Shimada/daily-arXiv-ai-enhanced  data/2026-04-24.md
+ssl/SecCollection  Wordlists/English/internet_hosts.txt
+Alice-Shimada/daily-arXiv-ai-enhanced  data/2026-11-02.md
+dabi-team/someData  data/deeplearning/1404.7828.txt
+Alice-Shimada/daily-arXiv-ai-enhanced  data/2025-11-20.md
+== gh search code rigid hadamard automorphism
+hacktoolspack/hack-tools  nts/scanarator/words.txt
+hakank/hakank  picat/unixdict.txt
+google-deepmind/superhuman  aletheia/FirstProof/FP7_A.tex
+RetroBSD/retrobsd  share/dict/words
+sergev/LiteBSD  share/dict/words
+envato/zxcvbn-ruby  data/frequency_lists/english_wikipedia.txt
+rust-rosetta/rust-rosetta  tasks/anagrams/resources/unixdict.txt
+rust-rosetta/rust-rosetta  tasks/ordered-words/resources/unixdict.txt
+rust-rosetta/rust-rosetta  tasks/letter-frequency/resources/unixdict.txt
+tavisrudd/othello  notes/2026-08-29-c999-hadamard-668-report.md
+nitlang/nit  examples/rosettacode/unixdict.txt
+zzllrr/mather  js/htm/wiki/dictionary/glossary.js
+== gh search code hadamard trivial automorphism
+TauCetiProject/TauCetiRoadmap  TauCetiRoadmap/SubspaceTheorem/README.md
+UKPLab/TWEAC-qa-agent-selection  data/stackexchange/dev/math.stackexchange.com.txt
+TauCetiProject/TauCetiRoadmap  TauCetiRoadmap/EffectiveBoundsPartII/README.md
+qLDPCOrg/qLDPC  src/qldpc/circuits/transversal.py
+GorrieXIV/Magma  doc/html/text1770.htm
+CIRISAI/CIRISOntology  scratchpad/RENT_SCALING_PREREG.md
+emberian/graphplay  references/1310.3885.txt
+PrimeEuler/PrimeEuler.github.io  unified/discriminant-12-return/ledger/Cone_Derivation_Ledger_v13.444_Canonical_V4_Self_Duality_Hadamard_and_Tangent_Character_Bridge.md
+Brahmastra-Labs/logicaffeine  crates/logicaffeine_proof/src/hypercube.rs
+jtcoolen/ocaml-pari  pari_bindings/libpari/src/basemath/buch2.c
+morluto/jacobian  src/jacobian/math/number_theory/galois/operations.py
+farev/Matematica  log/2026-09-01-projective-chromatic.md
+== gh search code Merchant rigid hadamard designs
+envato/zxcvbn-ruby  data/frequency_lists/english_wikipedia.txt
+ericproffitt/TopicModelsVB.jl  datasets/nsf/nsfvocab.txt
+ericproffitt/TopicModelsVB.jl  v0.6/datasets/nsf/nsflex.txt
+epitron/scripts  worryquotes.txt
+sunyilgdx/SIFRank  auxiliary_data/inspec_vocab.txt
+CSQianDong/Awesome-arXiv-Daily-Reporter  6-Feb-2026/AI/README.md
+CSQianDong/Awesome-arXiv-Daily-Reporter  26-Oct-2026/AI/README.md
+nulab/zxcvbn4j  src/main/resources/com/nulabinc/zxcvbn/matchers/dictionaries/english_wikipedia.txt
+XYZliang/HUAWEI-STORE-GO  DEV/Default/ZxcvbnData/1/english_wikipedia.txt
+techgaun/zxcvbn-elixir  priv/frequency_lists/english_wikipedia.txt
+CSQianDong/Awesome-arXiv-Daily-Reporter  18-Jun-2026/AI/README.md
+advanced-cs/arXiv_daily  daily_papers/20250514_Wed/text.md
+== gh search code bush-type hadamard rigid
+passagemath/passagemath  src/doc/en/reference/references/index.rst
+sagemath/documentation  html/en/reference/references/_sources/index.rst.txt
+VeryMath/AI4Math-Sagemath-skill  sagemath-skill/references/api/references/index.txt
+chokmah-me/fragile-proof-audit  incoming/harvests/2026-10-12.md
+dylan-plummer/srg1296  paper/srg1296.tex
+chokmah-me/fragile-proof-audit  docs/audits/harvest-2026-10-12/recon.md
+emes4/gsoc  src/doc/en/reference/references/index.rst
+Ivo-Maffei/DistanceRegular  src/doc/en/reference/references/index.rst
+rom1504/math  artifacts/tight_principal_decomposition_count.md
+cemulate/sage  src/doc/en/reference/references/index.rst
+mathcals/sage  src/doc/en/reference/references/index.rst
+kataokayuz0/Abe-Tibouchi-lab  src/doc/en/reference/references/index.rst
+== gh search code hadamard rank-one blocks
+mcgrof/knlp  kv_house/transforms.py
+Brahmastra-Labs/logicaffeine  crates/logicaffeine_compile/src/spatial/decode_engine/numerics.rs
+andrey-kokoev/marici  research/nima/many-many-hadamard-odd-interface-integration.md
+SauersML/group-approximation  research/artifacts/hadamard-spectral-conjugacy-and-forced-states-2026-09-12.md
+CrocSwap/integer-mult-bounds  research/balanced-walsh-pooling/PROOF.md
+AXYZdong/awesome-snn-conference-paper  README.md
+CrocSwap/integer-mult-bounds  research/zero-exclusion-proof-audit/README.md
+CrocSwap/integer-mult-bounds  research/qq16-recursive-binding/COST.md
+CrocSwap/integer-mult-bounds  research/four-plane-integral-shadow/README.md
+CrocSwap/integer-mult-bounds  research/h6-independent-audit/spectral/README.md
+CrocSwap/integer-mult-bounds  research/bit-three-active-one-returned/PROOF.txt
+CrocSwap/integer-mult-bounds  research/bit-three-active-one-returned/AUDIT.txt
+== gh search code hadamard 2-rank partition
+== gh search code hadamard 2-rank partition
+SergiioB/intel-arc-pro-b70-inference-cookbook  research/b70-docs/research/2026/b70-exl3-tp-feasibility-upstream-20260929.md
+stew675/llama-cpp-rdna-boosts  MANIFESTS.md
+CrocSwap/integer-mult-bounds  research/root-unit-decoder-lemmas/README.md
+david-xinyuwei/david-share  DL-Algorithm-Insights/Attention-Memory-And-Parallelism/README.md
+Cytnx-dev/Cytnx  include/linalg.hpp
+adamczhang/Brilliance  libr4d/r4d_ar_entry.hip
+gyrogovernance/superintelligence  docs/references/Analysis_hQVM_CGM_Group_Theory.md
+asf0/radiance-strix-egpu  libr4d/r4d_ar_entry.hip
+JD-Jones-ASES/Hadamard-B  note/NOTE-B.md
+gyrogovernance/science  docs/Findings/Analysis_hQVM_CGM_Group_Theory.md
+AmineMan/Project  PapersProject/Temporary/1569565715.txt
+AmineMan/Project  PapersProject/temporaryP/1569565715.txt
+== gh search code hadamard twisted pairing
+wilcompute/W33-Theory  analysis/toe_20261120_five_independent_operational_gates.py
+VladimirReshetnikov/ProveIt  Analysis/Polylogarithms/docs/manuscript/chapters/07-twisted-stieltjes.tex
+rom1504/math  artifacts/twisted_chiral_symmetry_followup_2026_09_19.md
+oseledets/ttpy  docs/plans/functional-tt.md
+zzllrr/mather  js/htm/wiki/dictionary/glossary.js
+CharlesHoskinson/sevenlayer  wiki/drafts/ch05-v3.md
+CharlesHoskinson/sevenlayer  wiki/drafts/ch05-v2.md
+CharlesHoskinson/sevenlayer  wiki/drafts/ch05-v4.md
+LeastAuthority/moonmath-manual  chapters/statements-moonmath.tex
+swcstudiospace/supercompute  ABG.md
+rom1504/math  research_archive/2026-09-19/205233Z/files/artifacts/twisted_chiral_symmetry_followup_2026_09_19.md
+vatskishan03/Hadamard  complex-hadamard/README.md
+== gh search code Paley II involution hadamard
+tamnd/bourbaki  content/fr/ts/index_of_terminology_i_ii.md
+eliottcassidy2000/math  07-reflections/the-involution-modulus-and-the-72-36-16-gate-cbx0611s4.md
+eliottcassidy2000/math  04-computation/experiments/gilbreath_fermat_platonic_20260926_audit.py
+Oichkatzelesfrettschen/gororoba-documents-public  mathematics/combinatorics/ocathain-2012-nonaffine-hadamard.md
+zzllrr/mather  js/htm/wiki/dictionary/glossary.js
+sagemath/sage  src/sage/graphs/strongly_regular_db.pyx
+vatskishan03/Hadamard  hadamard/QUATERNARY_MIYAMOTO_BLOCKS.md
+tavisrudd/othello  notes/2026-08-08-c892-paper-ii-formal-interface-freeze.md
+ericproffitt/TopicModelsVB.jl  datasets/nsf/nsfvocab.txt
+WolframResearch/semantic-math  thmp/data/arxiv1grams.txt
+ericproffitt/TopicModelsVB.jl  v0.6/datasets/nsf/nsflex.txt
+mathematical-tours/mathematical-tours.github.io  daft-sources/legacy/pre-python-2026-09-08/chap-en/corrections-exo.tex
+== gh search code woven hadamard Craigen
+
+== recent hadamard repos (sorted by update)
+2026-11-24 Brsanch/hadamard-maxdet — Hadamard maximal determinant problem: exact algebraic Gram feasibility (Hasse-Mi
+2026-11-24 ardadogan05/hadamard-search — 
+2026-11-23 vxvware/goethals-seidel-challenge — A public board of Hadamard matrices: verified constructions, exhaustive searches
+2026-11-23 mathesis-papers/jp2025-hadamard-closure — A five-vertex negative answer to Johnson and Paparella's Question 9.1 on Hadamar
+2026-11-24 ScientistWorld/2602.18741-compact-hadamard-latent-codes-for-efficient-spectral-rendering — Compact Hadamard Latent Codes for Efficient Spectral Rendering
+2026-11-13 DeconBear/hadamard — Hadamard is a family of tools built around LLM harnesses: Hadamard Harness (agen
+2026-11-05 BlivionIaG/hi2 — Quantizer for the rdna_hint_flex weight format (variable INT2/INT4/INT8 rows, Ha
+2026-11-23 zblore/butson-hadamard-lean — Butson's prime divisibility theorem for Butson-type Hadamard matrices, in Lean 4
+2026-11-23 Yashwanth-Nallapuneni/hpml-main — HPML Team 20: per-channel sensitivity for Hadamard rotations (COMS 6998, Fall 20
+2026-11-23 GoGoKo699/Quantum-Hadamard-Powers — Coherent Hadamard powers with optimal reversible query scaling for squaring, sha
+2026-11-23 GoGoKo699/Quantum-Coherent-Collisions — Exact collective Hadamard powers of unknown pure and mixed quantum states from s
+2026-11-22 UDARAAJAYASINGHEMUDALIGE/Quantum-Chirp-Trnasform-Based-Multi-Qubit-System-for-Image-Transmission —  Simulation code for a multi-qubit image transmission system based on the Quantu
+2026-11-22 UDARAAJAYASINGHEMUDALIGE/Complex-Valued-Unitatry-Superposition-Based-System-for-Image-Transmission — Simulation code for image transmission using complex-valued unitary superpositio
+2026-11-22 UDARAAJAYASINGHEMUDALIGE/Hadamard-Encoding-Based-Multi-Qubit-system-for-Image-Transmission — Simulation code for a multi-qubit image transmission system that uses Hadamard e
+2026-11-21 arhancanli/quantavane-hadamard-family — Hadamard matrices of order 4(4q^2+3) for every prime power q = 3 mod 8: construc
+2026-11-21 Rahulchaube1/blyx-realqubit — Apply I, X, Z or Hadamard to a normalized real-amplitude qubit.
+2026-11-20 teobanica/013 — Planar rotators with Hadamard couplings (Chat, Opus and Teo)
+2026-11-05 coelto/logarithmic-laplacian-hadamard-boundary-balance — PDF of the paper on the logarithmic Laplacian, the Hadamard formula and the boun
+2026-11-20 barneskiejoshua-pixel/drock-math-worksheet — Worked math behind DRock, a local offline AI agent: RoPE, attention scaling, Had
+== arXiv export API: all:hadamard+AND+all:rigid (sorted by submittedDate)
+arXiv Query: search_query=all:hadamard AND all:rigid&amp;id_list=&amp;start=0&amp;max_results=8	A Finiteness Result for Commuting Squares and Quantita
+2026-11-22T14:59:45Z	The generalized Cartan-Hadamard conjecture
+2026-10-27T18:31:38Z	Curvature-Based Bounds for $p$-Capacity and Capacity--Area Inequalities
+2026-10-06T00:51:41Z	Symmetric Kahane--Salem--Zygmund Inequalities and the Supremum Norm
+2026-09-25T01:05:30Z	A proof of the Cartan-Hadamard conjecture for small volumes under a Ricci curvature lower bound
+2026-09-15T12:27:24Z	Hadamard Rigidity and Sharp Stability in the Completely Bounded Bohnenblust--Hille Inequality
+2026-09-14T20:43:55Z	Field quantization in rotating frames: coordinate covariance and the circular-detector response
+2026-09-09T16:11:50Z	Hadamard Rigidity of Positive Sojourn Time Distributions for Rotation Coins
+2026-09-04T11:54:30Z	
+== arXiv export API: all:hadamard+AND+all:automorphism+AND+all:inequivalent (sorted by submittedDate)
+arXiv Query: search_query=all:hadamard AND all:automorphism AND all:inequivalent&amp;id_list=&amp;start=0&amp;max_results=8	Constructing, Classifying 
+2026-03-18T10:00:16Z	Hadamard Structures with Associated Automorphisms
+2014-05-16T13:04:02Z	
+== arXiv export API: all:hadamard+AND+all:Meisner (sorted by submittedDate)
+arXiv Query: search_query=all:hadamard AND all:Meisner&amp;id_list=&amp;start=0&amp;max_results=8	
+
+== Screening notes (coordinating session, 2026-11-24)
+- The positive control passed: Stepaniants hadamard → ajt60gaibb/OpenProblemsInNLA.
+- The first run was cut off at "hadamard 2-rank partition" by a pipe; the remaining queries were rerun and appended above.
+- dylan-plummer/srg1296 (strongly regular graphs on 1296 vertices; Bush-type Hadamard matrices used to delete spreads): read the relevant lines. No rigidity or class counts. Not overlapping.
+- JD-Jones-ASES/Hadamard-B, vatskishan03/Hadamard, rom1504/math, CrocSwap/integer-mult-bounds: listed by keyword only, and screened before (2026-11-23 scan) as not overlapping.
+- arXiv API: nothing on rigid Hadamard matrices or class counts. Off-topic: 2603.17552 (integer weighing matrices, small classification) and 1405.4157 (order-36 structures with automorphisms).
+- aiXiv: NOT PERFORMED today. Required before the repository goes public.
+
+== aiXiv rescan (aixiv.online search, 2026-11-24; page 1 of each query; all returned HTTP 200)
+Queries: "Hadamard", "rigid Hadamard", "Hadamard automorphism", "Bush-type", "Meisner", "inequivalent Hadamard".
+Relevant hits, abstracts read: 2610.02353 (Koval, SRGs from Bush-type matrices); 2611.02032 (twelve orders by GS/WW/Miyamoto arrays);
+2611.00465 (Mark, asymptotic existence); 2610.02075 (EKLO survey). None proves typical rigidity, an N log N - cN class
+count, or a rank-one block bound. Tangential (snippets only): 2609.00254 (partial Hadamard counts), 2610.02827, 2611.00632.
+Limitation: the results are relevance-ranked, and only page 1 of each query was read.

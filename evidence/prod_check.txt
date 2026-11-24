@@ -1,0 +1,9 @@
+q=4: fixed lines=4, components=10, (h^2+h)/2=10
+q=5: fixed lines=5, components=15, (h^2+h)/2=15
+h=4 output is Hadamard of order 64
+all tiles nonzero (trivially, entries +-1): True
+gauge on component of line 1 paired identical: True
+  row-side-only flip identical: False
+gauge on component of line 0 fixed identical: True
+  row-side-only flip identical: False
+h=20 product geometry OK; fixed lines: 20 components: 210 expected 210

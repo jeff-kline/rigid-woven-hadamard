@@ -1,0 +1,49 @@
+== 1. Construction, Bush, gauge, in-fibre quartet, true-pair divisibility ==
+Sylvester8 bush=False: Hadamard=True gauge-invariant=True single-flip-changes=True infibre-mismatch=0 truepair-nondiv=0
+Sylvester8 bush=True: Hadamard=True diagJ=True offdiag-zero-margins=True rowsum={np.int64(8)} gauge-invariant=True single-flip-changes=True infibre-mismatch=0 truepair-nondiv=0
+Paley12 bush=False: Hadamard=True gauge-invariant=True single-flip-changes=True infibre-mismatch=0 truepair-nondiv=0
+Paley12 bush=True: Hadamard=True diagJ=True offdiag-zero-margins=True rowsum={np.int64(12)} gauge-invariant=True single-flip-changes=True infibre-mismatch=0 truepair-nondiv=0
+Paley20 bush=False: Hadamard=True gauge-invariant=True single-flip-changes=True infibre-mismatch=0 truepair-nondiv=0
+Paley20 bush=True: Hadamard=True diagJ=True offdiag-zero-margins=True rowsum={np.int64(20)} gauge-invariant=True single-flip-changes=True infibre-mismatch=0 truepair-nondiv=0
+
+== 2. Quartic sums D of distinct row quartets; case A/B ==
+Sylvester8: row-quartet D values [0, 8]; case A
+Sylvester16: row-quartet D values [0, 16]; case A
+Paley12: row-quartet D values [-4, 4]; case B
+Paley20: row-quartet D values [-12, -4, 4, 12]; case A
+
+== 3. Case-B no-isolated-vertex with one excluded row (Bush y-exclusion) ==
+Paley12: isolated-vertex instances 0 / 11880
+Paley20: isolated-vertex instances 0 / 116280
+Sylvester8 (case A, contrast): isolated-vertex instances 336 / 1680
+Paley20: min number of rows d with D_abcd != 0 over all triples: 17
+
+== 4. Kernel word sets K_A = {w : A diag(w) A^-1 signed perm} ==
+Sylvester8: |K_A| = 16 (bound 2m = 16)
+Sylvester16: |K_A| = 32 (bound 2m = 32)
+Paley12: |K_A| = 2 (bound 2m = 24)
+Paley20: |K_A| = 2 (bound 2m = 40)
+
+== 5. Column-list collision probability and Step-1/2 exponents ==
+m=8: P(equal)=0.428571  (m-2)/(2(m-1))=0.428571
+m=12: P(equal)=0.454545  (m-2)/(2(m-1))=0.454545
+m=40: P(equal)=0.487179  (m-2)/(2(m-1))=0.487179
+H(1/4) = 0.811278; 1-H(1/4) = 0.188722
+m=64: Step1 bound 2.018e+06; log2 Step2 bound -367.6; log2 caseB union -6.5; log2 mixed-quartet union 43.5
+m=256: Step1 bound 2.526e-02; log2 Step2 bound -12991.6; log2 caseB union -94.5; log2 mixed-quartet union 26.8
+m=1024: Step1 bound 6.034e-43; log2 Step2 bound -245503.6; log2 caseB union -470.5; log2 mixed-quartet union -93.7
+m=4096: Step1 bound 1.851e-214; log2 Step2 bound -4115455.6; log2 caseB union -1998.5; log2 mixed-quartet union -629.7
+
+== 6. Stirling: residual of log D - (N log N - (2 - log2) N), scaled by sqrt(N) log N ==
+m=8: (logD-main)/sqrtN logN = 0.9469; (logD_B-main)/sqrtN logN = -0.2197; lower-bound loss/(sqrtN log^2 N) = 2.7231
+m=40: (logD-main)/sqrtN logN = 0.7497; (logD_B-main)/sqrtN logN = -0.3443; lower-bound loss/(sqrtN log^2 N) = 2.1948
+m=400: (logD-main)/sqrtN logN = 0.6534; (logD_B-main)/sqrtN logN = -0.4044; lower-bound loss/(sqrtN log^2 N) = 1.9318
+m=4000: (logD-main)/sqrtN logN = 0.6108; (logD_B-main)/sqrtN logN = -0.4310; lower-bound loss/(sqrtN log^2 N) = 1.7514
+m=40000: (logD-main)/sqrtN logN = 0.5867; (logD_B-main)/sqrtN logN = -0.4460; lower-bound loss/(sqrtN log^2 N) = 1.7017
+
+== 7. Moved-point ratio 2m*sqrt(a/(m-1)!) with a=(2m)^r ==
+m=64: log ratio = -61.7
+m=128: log ratio = -195.9
+m=256: log ratio = -518.5
+m=512: log ratio = -1263.7
+m=1024: log ratio = -2944.1
