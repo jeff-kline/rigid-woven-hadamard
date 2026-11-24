@@ -2,9 +2,12 @@
 
 Jeffery Kline
 
-**Status: release candidate for version 0.1.0.** The claims are frozen and
-audited (see [ADMISSION.md](ADMISSION.md)). There is no tag, archive or DOI
-yet, so there is no stable citation. Admission under the project's
+**Status: admitted, version 0.1.0.** Version DOI
+[10.5281/zenodo.24507265](https://doi.org/10.5281/zenodo.24507265); the
+concept DOI [10.5281/zenodo.24507264](https://doi.org/10.5281/zenodo.24507264)
+always resolves to the latest version. The tag `v0.1.0` was frozen as a
+release candidate before the DOI existed, so its README still says so.
+Admission under the project's
 [public research standard](https://jeff-kline.github.io/posts/research-program/index.html)
 is a release decision, not peer review or a correctness certificate; see
 [ADMISSION.md](ADMISSION.md).

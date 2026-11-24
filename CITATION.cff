@@ -9,6 +9,15 @@ authors:
 repository-code: "https://github.com/jeff-kline/rigid-woven-hadamard"
 url: "https://github.com/jeff-kline/rigid-woven-hadamard"
 license: GPL-3.0-only
+doi: 10.5281/zenodo.24507265
+date-released: 2026-11-24
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24507265
+    description: "Version DOI for release 0.1.0"
+  - type: doi
+    value: 10.5281/zenodo.24507264
+    description: "Concept DOI (all versions)"
 abstract: >-
   Meisner (1992) built Hadamard matrices, +1/-1 matrices with orthogonal
   rows, of order N = m^2 from one of order m: an m x m array of rank-one
