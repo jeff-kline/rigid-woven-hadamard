@@ -43,6 +43,33 @@ Hadamard matrix into rank-one blocks with no part of size one has all parts
 of size two, as in the Paley II matrices. The constructions give no new
 orders.
 
+![Three panels of black and white squares. Left: a 144 by 144 matrix divided by thin red lines into a 12 by 12 grid of blocks, with all-white blocks on the diagonal. Middle: the same matrix scrambled, which looks like noise. Right: the scrambled matrix re-sorted, with the 12 by 12 grid of patterned blocks restored.](figures/recovery.png)
+
+*Recovering the blocks of a Meisner square from its entries.* Black is $-1$,
+white $+1$. (a) A Bush-type square of order $N=144$ ($m=12$), built from the
+Paley-type Hadamard matrix of order 12, with its $12\times12$ grid of rank-one
+blocks. (b) The same matrix after a random signed permutation of its rows and
+columns. (c) Matrix (b) re-sorted by the divisibility test in the proof of
+Proposition 4.1, which reads only the entries of (b). All 12 row fibres and 12
+column fibres are recovered, and every block is again of rank one.
+
+Tripwires in using this rule:
+
+- The theorems are asymptotic, and this matrix is not claimed to be rigid.
+- At this order some mixed quartets reach $N/2$. The branch selection of
+  Proposition 4.1 would then take the large-quartet branch, which fails here,
+  finding 144 column groups instead of 12. The figure applies the
+  divisibility branch directly.
+- At order 64, where the only input is Sylvester's, the divisibility test
+  relates every pair of rows.
+- Recovery returns the fibres only up to order and sign, so (c) is equivalent
+  to (a), not equal to it.
+- The test computes about $N^4/4$ fourth sums. Its success was checked against
+  the hidden partition for one seed only.
+
+[code/figure_recovery.py](code/figure_recovery.py) draws the figure and runs
+each of these checks.
+
 ## What is new
 
 Meisner (1992) published the square construction, and Craigen (1995)
@@ -203,11 +230,11 @@ or formalised. The reviews are in [audit/reviews/](audit/reviews/) and the claim
 The checks need Python 3 with NumPy; the paper needs pdfLaTeX.
 
 ```sh
-make verify PY=/path/to/python   # about 15 seconds on one core
+make verify PY=/path/to/python   # about 25 seconds on one core
 make paper
 ```
 
-`make verify` runs the nine scripts in `code/` and compares each output with
+`make verify` runs the ten scripts in `code/` and compares each output with
 the pinned copy in `evidence/`. The optional `make node-check` runs the
 JavaScript version of the order-1600 check with Node.js.
 

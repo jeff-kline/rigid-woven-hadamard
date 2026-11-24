@@ -1,5 +1,5 @@
 \documentclass[11pt,reqno]{amsart}
-\usepackage{amsmath,amssymb,booktabs,geometry,microtype}
+\usepackage{amsmath,amssymb,booktabs,geometry,microtype,graphicx}
 \geometry{letterpaper,margin=1.05in}
 \usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
 \usepackage{xcolor}
@@ -48,7 +48,7 @@ Fix an order-\(h\) real Hadamard matrix and a four-group transversal design with
 For \(h=20\) one fixed design and the Paley matrix give more than \(10^{1514}\) inequivalent rigid regular matrices.
 \end{theorem}
 
-The proofs have three parts. A graph on the local basis labels gives exactly the number of labellings of each raw matrix. Products of four physical rows then recover the hidden point partitions. Finally, recovery constrains equivalence to permuting points and preserving local Hadamard directions. The last step alone cannot establish rigidity: even with all points fixed there can be signed symmetries within their fibres. We treat that kernel separately for each pattern. The finite bound in Theorem~\ref{th:four} uses a stronger arithmetic test at \(h\equiv4\bmod8\). The third result, Theorem~\ref{th:tworank}, concerns any partition of a Hadamard matrix of order \(N\) into blocks of rank one: the numbers of row and column parts sum to at least \(N\) when \(N\equiv4\pmod 8\), and to at least \(N/2+1\) when \(N\equiv8\pmod{16}\). Section~\ref{sec:sizetwo} shows that the first bound is attained.
+The proofs have three parts. A graph on the local basis labels gives exactly the number of labellings of each raw matrix. Products of four physical rows then recover the hidden point partitions (Figure~\ref{fig:recovery}). Finally, recovery constrains equivalence to permuting points and preserving local Hadamard directions. The last step alone cannot establish rigidity: even with all points fixed there can be signed symmetries within their fibres. We treat that kernel separately for each pattern. The finite bound in Theorem~\ref{th:four} uses a stronger arithmetic test at \(h\equiv4\bmod8\). The third result, Theorem~\ref{th:tworank}, concerns any partition of a Hadamard matrix of order \(N\) into blocks of rank one: the numbers of row and column parts sum to at least \(N\) when \(N\equiv4\pmod 8\), and to at least \(N/2+1\) when \(N\equiv8\pmod{16}\). Section~\ref{sec:sizetwo} shows that the first bound is attained.
 
 \section{Two constructions from local bases}\label{sec:construction}
 A \emph{point fibre} is the set of physical rows, or columns, contributed by one local matrix. A \emph{port} is a slot at that point to which one of its basis directions is assigned. A flag is the pair consisting of a point and one of its ports. If the tile at a row point \(x\) and column point \(y\) is
@@ -124,6 +124,12 @@ Equal-size labelling fibres give at least \((1-o(1))D\) distinct outputs with th
 For the two patterns, the independence estimate for moved points and the two different kernel estimates below supply (ii) and (iii). Recovery alone leaves point permutations possible.
 
 \section{Recovering the fibres from the entries}\label{sec:recover}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig-recovery.pdf}
+\caption{Recovering the blocks of a Meisner square from its entries. Black is \(-1\), white \(+1\). (a)~A Bush-type square of order \(N=144\) (\(m=12\)), built from the Paley-type Hadamard matrix of order~12, with its \(12\times12\) grid of rank-one blocks. (b)~The same matrix after a random signed permutation of its rows and columns. (c)~Matrix~(b) with rows and columns re-sorted by the divisibility test in the proof of Proposition~\ref{prop:recovery}, which reads only the entries of~(b). All 12 row fibres and 12 column fibres are recovered, and every block is again of rank one. Tripwires: the theorems are asymptotic, and this matrix is not claimed to be rigid. At this order some mixed quartets reach \(N/2\), so the branch selection of Proposition~\ref{prop:recovery} would take the large-quartet branch, which fails here; the figure applies the divisibility branch directly. At order 64, where the only input is Sylvester's, the divisibility test relates every pair of rows. Recovery returns the fibres only up to order and sign, so~(c) is equivalent to~(a), not equal to it. The test computes about \(N^4/4\) fourth sums, and its success was checked against the hidden partition for one seed only. The script \texttt{figure\_recovery.py} draws the figure and runs each of these checks.}
+\label{fig:recovery}
+\end{figure}
 For sign rows \(u,v,w,z\) let \(D(u,v,w,z)=\sum_k u_kv_kw_kz_k\). Its absolute value is invariant under signed equivalence of the rows and columns. Row products from a single fibre are constant on every opposite fibre. For rows at different points the product is nonconstant on a fibre seeing two different ports, because distinct local Hadamard directions are orthogonal. In the square, every opposite point separates two distinct row points. In the four-group geometry at least \(h-1\) points in any group external to the two points separate them: two points in different groups share just one line, and two in one group share none. The assertions are symmetric in the two sides. Consequently either partition, once known, determines the other.
 
 \begin{proposition}\label{prop:recovery}

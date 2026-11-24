@@ -1,0 +1,5 @@
+Bush square from Paley 12: m=12, N=144, seed 20261124; Hadamard: True
+divisibility test: 792 related row pairs, 792 related column pairs (true: 792 each)
+recovered 12 row fibres and 12 column fibres; row fibres correct: True; column fibres correct: True; re-sorted blocks all rank one: True
+tripwire, order 144: the large-quartet branch finds 144 column groups (true 12); correct: False
+tripwire, order 64 (Sylvester input): the divisibility test relates 2016 of 2016 row pairs (true 224)
